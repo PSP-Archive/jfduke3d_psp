@@ -1,0 +1,45 @@
+# Makefile.in for Doom-PSP 
+ 
+TARGET = Duke3d
+OBJS    = astub.o
+
+
+INCDIR = /usr/local/pspdev/psp/include/libtimidity
+CFLAGS = -O2 -G0 -Wall -DPSP
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+ASFLAGS = $(CFLAGS)
+USE_PSPSDK_LIBC = 1
+
+LIBDIR = 
+LDFLAGS =
+LIBS = -lpspgu -lpspaudiolib -lpspaudio -lpsppower -ltimidity -lm -lc
+
+#PSPBIN = $(PSPSDK)/../bin
+#CFLAGS += `$(PSPBIN)/sdl-config --cflags`
+#LIBS += `$(PSPBIN)/sdl-config --libs`
+
+EXTRA_TARGETS = EBOOT.PBP
+PSP_EBOOT_TITLE = Doom-PSP V0.05
+PSP_EBOOT_ICON = ICON0.PNG
+
+PSPSDK=$(shell psp-config --pspsdk-path)
+
+
+ifneq ($VS_PATH),)
+	CC	= vs-psp-gcc
+	CXX	= vs-psp-g++
+endif
+
+kx-install: kxploit
+ifeq ($(PSP_MOUNT),)
+	@echo '*** Error: $$(PSP_MOUNT) undefined. Please set it to for example /cygdrive/e'
+	@echo if your PSP is mounted to E: in cygwin.
+else
+	cp -r $(KXDIR) $(PSP_MOUNT)/PSP/GAME/
+	cp -r $(KXDUMMY) $(PSP_MOUNT)/PSP/GAME/
+endif 
+ 
+ 
+include $(PSPSDK)/lib/build.mak
+
+

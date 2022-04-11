@@ -1,0 +1,5 @@
+Stuff that Stereomike Changed:
+
+audio_fx_sdl.c never existed, stereomike wrote it, it might be what's wrong with the
+               high pitched duke voice.
+kplib.c        modified to not use dirents.

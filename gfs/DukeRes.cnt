@@ -1,0 +1,17 @@
+:Base DukeRes.hlp
+1 Introduction
+2 What is "DukeRes" for?=main_index
+2 Starting "DukeRes" the first time=main_index
+1 Menus
+2 File menu=menu_file
+2 Edit menu=menu_edit
+2 View menu=menu_view
+2 Tools menu=menu_tools
+2 Window menu=menu_window
+2 Help menu=menu_help
+2 The Palette=HID_PALETTE
+1 The Control Windows
+2 Contents bar=contents_bar
+2 Bitmap selection box=HIDC_BITMAPS
+1 Buttons and Edit fields
+2 Animation settings fiels=HIDC_ANI_SETTINGS

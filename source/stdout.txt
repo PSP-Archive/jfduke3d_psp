@@ -1,0 +1,77 @@
+215Using Shareware GRP file.
+Duke Nukem 3D Unregistered Shareware v1.999 
+Copyright (c) 1996 3D Realms Entertainment
+Distribution of shareware Duke Nukem 3D is restricted in certain ways.
+Please read LICENSE.DOC for more details.
+Compiling: GAME.CON (99639 bytes)
+Including: DEFS.CON (28893 bytes)
+Including: USER.CON (36960 bytes)
+Looks like Standard CON files.
+  * WARNING!(L157 GAME.CON) Expected a 'action' label but found a 'define' label instead.
+Code Size: 48520 bytes (1425 labels).
+*** You have run Duke Nukem 3D 0 times. ***
+
+Initialising SDL system interface (compiled with SDL version 1.2.9, DLL version 1.2.9)
+Using "psp" video driver
+Video device information:
+  Can create hardware surfaces?          Yes
+  Window manager available?              No
+  Accelerated hardware blits?            Yes
+  Accelerated hardware colourkey blits?  Yes
+  Accelerated hardware alpha blits?      No
+  Accelerated software blits?            No
+  Accelerated software colourkey blits?  No
+  Accelerated software alpha blits?      No
+  Accelerated colour fills?              No
+  Total video memory:                    0KB
+Detecting video modes:
+  - 320x200 8-bit fullscreen
+No fullscreen modes available!
+  - 320x200 8-bit windowed
+1 joystick(s) found
+  1. PSP controller
+Joystick 1 has 2 axes, 14 buttons, and 0 hat(s).
+CONTROL_Startup: Joystick Present
+setjoydeadzone(): axis 0, dead 3276, satur 9500setjoydeadzone(): axis 1, dead 3276, satur 9500Initialising timer
+Loading art header.
+initcache(): Initialised with 4800000 bytes
+RTS Manager Started.
+RTS file DUKE.RTS was not found
+Loading palette/lookups.
+Setting video mode 320x200 (8-bpp fullscreen)
+Checking music inits.
+Checking sound inits.
+FX_Init(): 4 voices, 2 channels, 11025Hz samplerate
+FXINIT()In LOGO2In LOGOFX_LoadSample(): loaded sound 14
+FX_PlayPositionedSound(): Play sound 14 in channel 0 -467 64.770004
+FX_PlayPositionedSound(): Play sound 14 in channel 1 -305 64.770004
+FX_LoadSample(): loaded sound 213
+FX_PlayPositionedSound(): Play sound 213 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 0
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 0 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 2
+FX_PlayPositionedSound(): Play sound 2 in channel 0 0 64.770004
+FX_PlayPositionedSound(): Play sound 2 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 195
+FX_PlayPositionedSound(): Play sound 195 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 189
+FX_PlayPositionedSound(): Play sound 189 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 232
+FX_PlayPositionedSound(): Play sound 232 in channel 1 -442 64.770004
+FX_LoadSample(): loaded sound 91
+FX_PlayPositionedSound(): Play sound 91 in channel 2 0 64.770004
+FX_PlayPositionedSound(): Play sound 232 in channel 3 -215 64.770004
+FX_LoadSample(): loaded sound 215
+FX_PlayPositionedSound(): Play sound 215 in channel 4 0 64.770004
+FX_LoadSample(): loaded sound 42
+FX_PlayPositionedSound(): Play sound 42 in channel 5 0 64.770004
+FX_LoadSample(): loaded sound 5
+FX_PlayPositionedSound(): Play sound 5 in channel 4 512 64.770004
+FX_PlayPositionedSound(): Play sound 91 in channel 0 0 64.770004
+FX_LoadSample(): loaded sound 9
+FX_PlayPositionedSound(): Play sound 9 in channel 1 -252 64.770004
